@@ -1,0 +1,14 @@
+{
+  "name": "com.winuxgames.splitframework.core",
+  "version": "1.0.0",
+  "displayName": "Split Framework Core",
+  "description": "Core for Split Apart Games",
+  "unity": "2021.2",
+  "dependencies": {},
+  "keywords": [],
+  "author": {
+    "name": "WinuXGames",
+    "email": "support@winuxgames.com",
+    "url": "https://www.winuxgames.com"
+  }
+}
