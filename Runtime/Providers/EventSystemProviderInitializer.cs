@@ -1,13 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.UI;
 
 namespace WinuXGames.SplitFramework.Core.Providers
 {
     public class EventSystemProviderInitializer : MonoBehaviour
     {
-        [SerializeField] private EventSystem            _eventSystem;
-        [SerializeField] private SO_EventSystemProvider _eventSystemProvider;
+        [SerializeField] private EventSystem              _eventSystem;
+        [SerializeField] private InputSystemUIInputModule _inputModule;
+        [SerializeField] private SO_UIDependencyProvider  _uiDependencyProvider;
 
-        private void Awake() { _eventSystemProvider.AssignEventSystem(_eventSystem); }
+        private void Awake()
+        {
+            _uiDependencyProvider.AssignEventSystem(_eventSystem);
+            _uiDependencyProvider.AssignInputModule(_inputModule);
+        }
     }
 }
