@@ -2,7 +2,9 @@
     "name": "com.winuxgames.splitframework.core.editor",
     "rootNamespace": "WinuXGames.SplitFramework.Core.Editor",
     "references": [
-        "GUID:4bb6b6c5e0c041faa98eef1aa0735b50"
+        "GUID:4bb6b6c5e0c041faa98eef1aa0735b50",
+        "GUID:cc1ec75aaf778ab44918a6e010f287cc",
+        "GUID:47064ffe4ed35714a9df419986a3153a"
     ],
     "includePlatforms": [
         "Editor"
